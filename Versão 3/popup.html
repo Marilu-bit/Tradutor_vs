@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Tradutor</h2>
+
+    <label for="de">De:</label>
+    <select id="de">
+        <option value="ingles">Inglês</option>
+        <option value="portugues">Português</option>
+    </select>
+
+    <label for="para">Para:</label>
+    <select id="para">
+        <option value="ingles">Inglês</option>
+        <option value="portugues">Português</option>
+    </select>
+
+
+    <button id="enviar">Enviar</button>
+
+    <button>Traduzir</button>
+
+
+    <script>
+        document.getElementById("enviar").addEventListener("click", () => {
+            const de = document.getElementById("de").value;
+            const para = document.getElementById("para").value;
+
+            fetch("http://localhost:5000/traduzir", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ de: de, para: para })
+            })
+                .then(response => response.json())
+                .then(data => {
+  alert("Texto original:\n" + data.texto_original + "\n\nTexto traduzido:\n" + data.texto_traduzido);
+})
+                .catch(error => {
+                    console.error("Erro ao enviar para o Python:", error);
+                });
+        });
+
+
+    </script>
+
+
+</body>
+
+</html>

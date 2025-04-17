@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Minha Extensão",
+  "version": "1.0",
+  "description": "Uma extensão simples",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
