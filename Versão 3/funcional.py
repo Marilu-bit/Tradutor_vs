@@ -1,6 +1,10 @@
 from PIL import Image
 import pyautogui
 import pytesseract
+
+# Caminho absoluto para o executável do Tesseract
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 from googletrans import Translator 
 from flask import Flask, request, jsonify
 from flask_cors import CORS  # Permitir requisições do navegador
@@ -42,17 +46,3 @@ def traduzir():
 # Iniciar o servidor
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-
-
-
-
-
-
-ANALISAR O CODIGO
-
-
-
-
-

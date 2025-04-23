@@ -2,6 +2,11 @@ from PIL import Image
 import pyautogui
 import pytesseract
 
+import pytesseract
+
+# Caminho absoluto para o executável do Tesseract
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 
 # Tirar print
 screenshot = pyautogui.screenshot()

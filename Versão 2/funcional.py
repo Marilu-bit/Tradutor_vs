@@ -1,6 +1,10 @@
 from PIL import Image
 import pyautogui
 import pytesseract
+
+# Caminho absoluto para o executável do Tesseract
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 from googletrans import Translator  # Necessário instalar a biblioteca googletrans
 
 # Tirar print
