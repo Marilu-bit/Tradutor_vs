@@ -1,0 +1,56 @@
+Texto Original:
+=x] Arquivo Editar Seleção Ver Acessar Executar + es /9 Tradutor. vs SB Soo e =) x
+
+| D EXPLORADOR ... * funcionalpy M X
+» TRADUTOR VS Versão 1> & funcionaLpy >...
+jo) v Versão 1 . 1 from PIL import Image
+op 2 import pyautogui
+| efndonoy Mo MPE pytessaract
+o E
+1) manifestjson 5| import pytesseract
+> Versão 2 6
+» Versão 3 7| * Caminho absoluto para o executável do Tesseract
+a JS contentjs 8| pytesseract.pytesseract.tesseract cmd = r"C:YProgram FilesYTesseract-ocRVtesseract. exe”
+* funcionalpy 9
+1) manifestjson to . .
+A o html 11 & Tirar print
+pn 12 screenshot = pyautogui .screenshot()
+* tentativa py 13
+(D READMEmd 14 4 Salvar imagem
+FE screenshot. png U 15 screenshot. save( "screenshot. png")
+16
+
+17 * Identificar texto na imagem
+18 texto - pytesseract. image to string(screenshot, Lang-"por") « Português
+19
+
+20 apresentar o texto original e traduzido
+
+21 print("Texto Original:”)
+
+22  print(texto)
+
+23
+E
+PROBLEMAS SAÍDA CONSOLE DEDEPURAÇÃO TERMINAL PORTAS ra x
+au as as o E powershell
+File "Cc: UsersizanarMAppDatalLocalNProgramsiPythoniPython313Liblsite-packagesipytesseractipytesseract.py”, line 489, in <lambda>
+Output.STRING: lambda: run and get output(*args), b-] Python
+
+anna nana AARARAR.
+File “c:lusersizanarMappDatalLocalNProgramsiPythoniPython313)Liblsite-packagespytesseractipytesseract.py”, line 352, in run and get output
+run tesseract(kwargs)
+anna nana ABARARARAR.
+File “c:lusersizanarMappDatalLocalNProgramsiPythoniPython313)Liblsite-packagespytesseractipytesseract.py”, line 280, in run tesseract
+Q raise TesseractNotFoundError()
+pytesseract.pytesseract. TesseractNotFoundError: C:usersizanarMappDatalLocalNProgramsYTesseract-OCRYtesseract.exe is not installed or it's not in your PATH
+.
+
+és > ESTRUTURA DO cópico PS C: UsersizanarYrradutor vs> & C:/Users/zanar/AppData/Local/Prograns/Python/Python313/python.exe "c: /Users/zanar/Tradutor vs/versão 1/funcional.py”
+
+> LINHA DO TEMPO
+
+17ºc
+Parc. nublado
+
+C Reseufest emeOSeo”r = E AÊ CL non 8

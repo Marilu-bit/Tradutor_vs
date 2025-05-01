@@ -1,0 +1,129 @@
+Texto Original:
+=x] Arquivo Editar Seleção Ver Acessar Executar + es /9 Tradutor. vs SB Soo e =) x
+
+10 4 Tirar print
+
+1) manifestjson .
+11 screenshot = pyautogui .screenshot()
+
+D EXPLORADOR ... * funcional py Versão 1 4,M * funcionalpy Versão2 4M X
+» TRADUTOR VS Versão 2 > & funcional py > ...
+O - vverão1 1 from PIL import Image
+38 contentjs 2 import pyautogui
+009% funcionalpy 4M : dorant ppdiessaraçie
+DO maniesjson 5| * Caminho absoluto para o executável do Tesseract
+> fi screenshot png U 6| pytesseract.pytesseract.tesseract cmd = r“C:YProgram FilesYTesseract-oCRVtesseract. exe”
+a » Versão 2 7) |
+“SS contentjs 8 from googletrans import Translator Necessário instalar a biblioteca googletrans
+ED *& funcionalpy 4M 9
+
+* tentativa py »
+» Versão 3 13 4 Salvar imagem
+38 contentjs 14 | screenshot. save("screenshot.png”)
+* funcionalpy 15
+A) menflessem 16 4 Identificar texto na imagem vma x
+& parati 17 texto - pytesseract. image to string(screenshot, Lang="por”) « português
+* tentativa py 8
+19 4 Traduzir o texto da imagem
+O EAD E 20 translator - Translator() TRA
+21 texto traduzido = translator .translate(texto, src='pt', dest='en').text « Traduzir de português para inglê
+22
+2 & sentar o original e
+20 meinkiPTovto Qniminalemy
+PROBLEMAS (O) SAÍDA CONSOLEDEDEPURAÇÃO TERMINAL PORTAS
+E powershell
+packagesiPython311iscripts' which is not on PATH.
+Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location. Bi] Python
+
+successfully installed Jinja2-3.1.6 Markupsafe-3.0.2 Werkzeug-3.1.3 blinker-1.9.0 certifi-2025.1.31 chardet-3.0.4 click-8.1.8 colorama-0.4.6 flask-3.1.0 fl | B]Python
+
+ask-cors-5.0.1 googletrans-4.0.0rci h11-0.9.0 h2-3.2.0 hpack-3.0.0 hstspreload-2025.1.1 httpcore-0.9.1 httpx-0.13.3 hyperframe-5.2.0 idna-2.10 itsdangerous Python
+
+-2.2.0 mouseinfo-0.1.3 packaging-25.0 pillow-11.2.1 pyautogui-0.9.54 pygetwindow-0.0.9 pymsgbox-1.0.9 pyperclip-1.9.0 pyrect-9.2.0 pyscreeze-1.0.1 pytesser
+
+act-0.3.13 pytweening-1.2.0 rfc3986-1.5.0 sniffio-1.3.1
+
+[notice] A new release of pip is available: 24.0 -> 25.0.1
+[notice] To update, run: C:lusersizanarMappDatalLocal MicrosoftWwindowsappsPythonsoftwareFoundation.Python.3.11 qbz5n2kfraspoNpython.exe -m pip install -— 
+upgrade pip
+
+> EmaintoeiE To Ps C:UsersizanarNTradutor.
+
+> LINHA DO TEMPO
+
+> & C:/Users/zanar/AppData/Local/Microsoft/Wwindowsapps/python3.11.exe “c:/Users/zanar/Tradutoi
+
+'s/Versão 2/funcional. py
+
+e O
+
+17ºc
+Parc. nublado
+
+Cespe OneCOSsSer:- 83 na SO aniio E
+
+
+Texto Traduzido:
+= x] File Edit Selection See access execute + es /9 translator.vs sb soo e =) x
+
+10 4 TAKE PRINT
+
+1) Manifestjson.
+11 screenshot = pyautogui .screenshot ()
+
+D Explorer ... * Functional Py Version 1 4, M * Functionalpy Version2 4m x
+»Translator vs Version 2> & Functional Py> ...
+O - VVERÃO1 1 from pil import image
+38 Contentjs 2 Import Pyautui
+009% FunctionalPy 4M: Dorant PpdiesSaraçie
+From Manisjson 5 |* Absolute path to the Tesseract executable
+> FI Screenshot Png U 6 |pytesseract.pytesserat.Tesserat cmd = r “C: yprogram fileseserat-clustersserat. exe”
+A »Version 2 7) |
+“SS Contentjs 8 from GoogleTrans Import Translator Necessary Install the GoogleTrans Library
+ED *& FUNCTIONALPY 4M 9
+
+* attempt PY »
+»Version 3 13 4 Save image
+38 CONTENTJS 14 |screenshot.save ("screenshot.png")
+* FUNCTIONALPY 15
+A) MEINTE 16 4 Identify Text in the VMA x image
+& Parati 17 Text - PyTesseract.image to string (screenshot, lang = "by") «Portuguese
+* attempt PY 8
+19 4 Translate the text of the image
+The distance learning and 20 translator - translator () TRA
+21 Translated Text = Translator .Translate (Text, SRC = 'PT', Dest = 'EN'). Text «Translate from Portuguese to Inglê
+22
+2 & sit the original and
+20 MEINKIPTOVTO Qniminalemy
+Problems (O)
+And Powershell
+
+PackageSipyThon311iscripts' Which is not on Path.
+CONSIDER ADDING THIS Directory to Path or, IF YOU PREFER TO SUPPRESS THIS WARNING, USE--WARN-SCRIPT-LOCATION.BI] Python
+
+SUCCESSFULLY INSTALLED JINJA2-3.1.6 MARKUPSAFE-3.0.2 WERKZEUG-3.1.3 BLINKER-1.9.0 CERTIFI-2025.1.31 CHARDET-3.0.4 CLICK-8.1.8 Colorama-0.4.6 Flask-3.1.0 FL |B] Python
+
+ASK-CORS-5.0.1 GoogleTrans-4.0.0RCI H11-0.9.0 H2-3.2.0 HPack-3.0.0.0 HSTPLOVER-2025.1.1 httpcore-0.9.1 httpx-0.13.3 HYPERFRAME-5.2.0 IDNA-2.10 ITSDANGEROUS Python
+
+-2.2.0 MOUSEINFO-0.1.3 Packaging-25.0 Pillow-11.2.1 Pyautui-0.9.54 PygetWindow-0.0.9 Pymsgbox-1.0.9 PyperClip-1.9.0 Pyrect-9.2.0 PYSCREEZE-1.0.1 PYTESSER  
+
+ACT-0.3.13 Pytweening-1.2.0 RFC3986-1.5.0 Sniffio-1.3.1
+
+[Notice] A New Release of Pip is Available: 24.0 -> 25.0.1
+[Notice] To Update, Run: C: LUSERSIZANAMAPPDALCALCAL MICROSOFWSAPPSPYTHONSOFLENFOUNDE.PYTHON.3.11 QBZ5N2KFRASPONPYTHON.EXE -M PIP INSTALL --—
+upgrade pip
+
+> EMAINTOEIE TO PS C: USERSIZANARTRATUDER.
+
+> Timeline
+
+> & C: /users/zanar/appdata/local/microsoft/windowsapps/python3.11.exe “C:/users/zanar/translation
+
+'Y/Version 2/Functional.py
+
+and the
+
+17ºC
+PARC.cloudy
+
+CESPE ONECOSSER:- 83 at So Anio and
