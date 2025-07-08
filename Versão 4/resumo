@@ -1,0 +1,11 @@
+Essa verão é capaz de fazer tradução de imagens, para isso o 
+chrome.tabs.captureVisibleTab tira um print da tela, o tesseract.js 
+identiifica o texto e o libretranslate faz a tradução desse texto,
+por ser uma versão teste ele identifica apenas ingles e portugues.
+Depois disso o código desponibiliza a nova imgaem com o texto 
+traduzido no popup.
+
+Problema da versão: Idependete das tentativas de forçar a extensão
+a busca o código tesseract.js presente no proprio código,
+ela sempre busca a versõa web a qual a própria não dá permissão
+para se usar.

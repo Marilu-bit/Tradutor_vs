@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Tradutor Simples de Imagens",
+    "version": "1.2",
+    "description": "Traduz texto de imagens capturadas da tela.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "extensoes/tesseract-core.wasm.js",
+          "extensoes/tesseract.min.js",
+          "extensoes/worker.min.js"
+        ],
+        "matches": ["<all_urls>"]
+      }
+    ],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+    }
+  }
